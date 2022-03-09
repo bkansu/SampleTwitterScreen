@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-untitled2" insertBefore="administration" caption="mainMsg://menu_config.application-untitled2">
+        <item screen="untitled2_Product.browse" caption="mainMsg://menu_config.untitled2_Product.browse"/>
+        <item screen="TwitterSample" caption="mainMsg://menu_config.TwitterSample" openType="DIALOG"/>
+    </menu>
+</menu-config>

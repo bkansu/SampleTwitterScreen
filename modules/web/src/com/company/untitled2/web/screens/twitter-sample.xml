@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://twitterSample.caption"
+        messagesPack="com.company.untitled2.web.screens">
+    <dialogMode resizable="true"/>
+    <!--    focusComponent="productsTable"-->
+    <layout spacing="true">
+        <grid spacing="true">
+            <columns count="4"/>
+            <rows>
+                <row>
+                    <hbox>
+                        <image id="declarativeImage" scaleMode="FILL"
+                               align="MIDDLE_CENTER" height="35px" width="35px" css="border-radius:50%">
+                            <url url="https://pbs.twimg.com/profile_images/1449463399088365570/G7zeaU_T_400x400.jpg"/>
+                        </image>
+                        <grid>
+                            <columns count="1"></columns>
+                            <rows>
+                                <row>
+                                    <label id="htmlLabel"
+                                           htmlEnabled="true"/>
+                                </row>
+                                <row>
+                                    <label value="msg://ugurDundar"/>
+                                </row>
+                            </rows>
+                        </grid>
+                    </hbox>
+                </row>
+                <row>
+                    <label id="htmlLabel2"
+                           htmlEnabled="true"/>
+                </row>
+                <row>
+                    <browserFrame id="vbox_video_browser" width="500px" height="270px">
+                        <url url="https://video.twimg.com/ext_tw_video/1494318858139701252/pu/vid/640x352/PUQaCig4Hvi5p8Za.mp4?tag=12"/>
+                    </browserFrame>
+                </row>
+                <row>
+                    <label value="ÖS 5:32 · 17 Şub 2022·Twitter for Android"/>
+                </row>
+                <row>
+                    <label id="htmlLabel6"
+                           htmlEnabled="true"/>
+                </row>
+                <row>
+                    <hbox>
+                        <label id="htmlLabel3"
+                               htmlEnabled="true"/>
+                        <label id="htmlLabel4"
+                               htmlEnabled="true"/>
+                        <label id="htmlLabel5"
+                               htmlEnabled="true"/>
+                    </hbox>
+                </row>
+                <row>
+                    <label id="htmlLabel7"
+                           htmlEnabled="true"/>
+                </row>
+                <row>
+                    <hbox>
+                        <label width="100px" value=" " />
+                        <label width="100px" icon="font-icon:COMMENT" />
+                        <label width="100px" icon="font-icon:RETWEET"/>
+                        <label width="100px" icon="font-icon:HEART"/>
+                        <label width="100px" icon="font-icon:UPLOAD"/>
+                        <label width="100px" value=" " />
+                    </hbox>
+                </row>
+            </rows>
+        </grid>
+    </layout>
+</window>
